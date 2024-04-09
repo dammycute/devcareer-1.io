@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Software Engineer Profile</h1>
+    </header>
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>
+                I am a software engineer with deep expertise in HTML.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science, XYZ University</li>
+                <li>Certificate in Web Development, ABC Institute</li>
+            </ul>
+        </section>
+        <section id="job-experiences">
+            <h2>Job Experiences</h2>
+            <article>
+                <h3>Software Engineer, ABC Company</h3>
+                <p>
+                    Responsible for developing and maintaining web applications using HTML, CSS, and JavaScript.
+                </p>
+            </article>
+            <article>
+                <h3>Web Developer, XYZ Company</h3>
+                <p>
+                    Designed and implemented responsive websites using HTML, CSS, and JavaScript.
+                </p>
+            </article>
+        </section>
+        <section id="hobby">
+            <h2>Hobby</h2>
+            <p>
+                In my free time, I enjoy playing chess and reading books.
+            </p>
+        </section>
+        <section id="other-skills">
+            <h2>Other Skills</h2>
+            <ul>
+                <li>Proficient in Adobe Creative Suite</li>
+                <li>Experience with version control systems (Git, SVN)</li>
+                <li>Knowledge of Agile development methodologies</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit_contact" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <label for="priority">Priority:</label><br>
+                <select id="priority" name="priority" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <div id="calculator">
+          <input type="text" id="display" readonly>
+          <div id="buttons">
+          <button class="number" value="1">1</button>
+          <button class="number" value="2">2</button>
+          <button class="number" value="3">3</button>
+          <button class="operator" value="+">+</button>
+          <button class="number" value="4">4</button>
+          <button class="number" value="5">5</button>
+          <button class="number" value="6">6</button>
+          <button class="operator" value="-">-</button>
+          <button class="number" value="7">7</button>
+          <button class="number" value="8">8</button>
+          <button class="number" value="9">9</button>
+          <button class="operator" value="*">*</button>
+          <button class="number" value="0">0</button>
+          <button class="operator" value="/">/</button>
+          <button class="operator" value="%">%</button>
+          <button class="clear">C</button>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
